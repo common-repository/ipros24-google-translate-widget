@@ -1,0 +1,10 @@
+
+table.ipros24-wp-plugin-option td	{
+	text-align: right;
+}
+
+table.ipros24-wp-plugin-option td label:first-child	{
+	padding-left: 4px;
+	text-align: left;
+}
+

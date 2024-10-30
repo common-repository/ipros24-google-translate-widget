@@ -1,0 +1,215 @@
+
+body	{
+	top: 0 !important;
+}
+
+@media screen and (max-width: 600px)	{
+
+	#wpadminbar	{
+		position: fixed;
+	}
+}
+
+iframe.goog-te-banner-frame.skiptranslate	{
+	top: auto;
+	bottom: 0px;
+}
+
+@media screen and (max-width: 660px)	{
+
+	iframe.goog-te-banner-frame.skiptranslate	{
+		display: none;
+	}
+}
+
+div#google_translate_element	{
+/*	display: none;	*/
+}
+
+div#ipros24-google-translate-test	{
+	display: none;
+}
+
+.widget_ipros24_google_translate_widget.ipros24-google-translate-transparent,
+.widget_ipros24_google_translate_widget.ipros24-google-translate-transparent > div	{
+	padding: 0;
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.widget_ipros24_google_translate_widget.ipros24-google-translate-transparent div.widget-title h3	{
+	font-size: 1em;
+	padding-bottom: 10px;
+}
+
+div.ipros24-google-translate-widget	{
+	line-height: .4;
+	margin-bottom: 1.5em;
+}
+
+.ipros24-google-translate-transparent div.ipros24-google-translate-widget	{
+	margin-bottom: 0;
+}
+
+div.ipros24-google-translate-flags,
+div.ipros24-google-translate-flags a	{
+	cursor: default;
+}
+
+div.ipros24-google-translate-flags a,
+div.ipros24-google-translate-flags a:hover	{
+	box-shadow: none !important;
+/*	border-bottom: none !important;	*/
+}
+
+div.ipros24-google-translate-flags a > span	{
+	display: inline-block;
+	margin: 1px;
+	padding: 2px;
+	border: 1px solid transparent;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+div.ipros24-google-translate-flags a > span span	{
+	display: inline-block;
+	width: 16px;
+	height: 11px;
+	background-image: url('../images/flags.16x11.png');
+	margin: 0;
+	padding: 0;
+}
+
+div.ipros24-google-translate-flags a > span:hover	{
+	border-color: #dddddd;
+}
+
+.ipros24-google-translate-flags .active-language > span	{
+	border-color: red;
+}
+
+div.ipros24-google-translate-flags span.rtl	{
+	direction: rtl;
+}
+
+div.ipros24-google-translate-flags span.af_ZA	{ background-position: 0px 0; }
+div.ipros24-google-translate-flags span.ar_EG	{ background-position: -16px 0; }
+div.ipros24-google-translate-flags span.az_AZ	{ background-position: -32px 0; }
+div.ipros24-google-translate-flags span.be_BY	{ background-position: -48px 0; }
+div.ipros24-google-translate-flags span.bg_BG	{ background-position: -64px 0; }
+div.ipros24-google-translate-flags span.bn_BD	{ background-position: -80px 0; }
+div.ipros24-google-translate-flags span.bs_BA	{ background-position: -96px 0; }
+div.ipros24-google-translate-flags span.ca_ES	{ background-position: -112px 0; }
+div.ipros24-google-translate-flags span.cs_CZ	{ background-position: -128px 0; }
+div.ipros24-google-translate-flags span.cy_GB	{ background-position: -144px 0; }
+div.ipros24-google-translate-flags span.da_DK	{ background-position: -160px 0; }
+div.ipros24-google-translate-flags span.de_DE	{ background-position: -176px 0; }
+div.ipros24-google-translate-flags span.el_GR	{ background-position: -192px 0; }
+div.ipros24-google-translate-flags span.en_GB	{ background-position: -208px 0; }
+div.ipros24-google-translate-flags span.en_US	{ background-position: -224px 0; }
+div.ipros24-google-translate-flags span.es_ES	{ background-position: -240px 0; }
+div.ipros24-google-translate-flags span.et_EE	{ background-position: -256px 0; }
+div.ipros24-google-translate-flags span.eu_ES	{ background-position: -272px 0; }
+div.ipros24-google-translate-flags span.fa_IR	{ background-position: -288px 0; }
+div.ipros24-google-translate-flags span.fi_FI	{ background-position: -304px 0; }
+div.ipros24-google-translate-flags span.fr_FR	{ background-position: -320px 0; }
+div.ipros24-google-translate-flags span.ga_IE	{ background-position: -336px 0; }
+div.ipros24-google-translate-flags span.gl_ES	{ background-position: -352px 0; }
+div.ipros24-google-translate-flags span.gu_IN	{ background-position: -368px 0; }
+div.ipros24-google-translate-flags span.ha_NG	{ background-position: -384px 0; }
+div.ipros24-google-translate-flags span.hi_IN	{ background-position: -400px 0; }
+div.ipros24-google-translate-flags span.hr_HR	{ background-position: -416px 0; }
+div.ipros24-google-translate-flags span.ht_HT	{ background-position: -432px 0; }
+div.ipros24-google-translate-flags span.hu_HU	{ background-position: -448px 0; }
+div.ipros24-google-translate-flags span.hy_AM	{ background-position: -464px 0; }
+div.ipros24-google-translate-flags span.id_ID	{ background-position: -480px 0; }
+div.ipros24-google-translate-flags span.ig_NG	{ background-position: -496px 0; }
+div.ipros24-google-translate-flags span.is_IS	{ background-position: -512px 0; }
+div.ipros24-google-translate-flags span.it_IT	{ background-position: -528px 0; }
+div.ipros24-google-translate-flags span.iw_IL	{ background-position: -544px 0; }
+div.ipros24-google-translate-flags span.ja_JP	{ background-position: -560px 0; }
+div.ipros24-google-translate-flags span.ka_GE	{ background-position: -576px 0; }
+div.ipros24-google-translate-flags span.kk_KZ	{ background-position: -592px 0; }
+div.ipros24-google-translate-flags span.km_KH	{ background-position: -608px 0; }
+div.ipros24-google-translate-flags span.kn_IN	{ background-position: -624px 0; }
+div.ipros24-google-translate-flags span.ko_KR	{ background-position: -640px 0; }
+div.ipros24-google-translate-flags span.lo_LA	{ background-position: -656px 0; }
+div.ipros24-google-translate-flags span.lt_LT	{ background-position: -672px 0; }
+div.ipros24-google-translate-flags span.lv_LV	{ background-position: -688px 0; }
+div.ipros24-google-translate-flags span.mg_MG	{ background-position: -704px 0; }
+div.ipros24-google-translate-flags span.mi_NZ	{ background-position: -720px 0; }
+div.ipros24-google-translate-flags span.mk_MK	{ background-position: -736px 0; }
+div.ipros24-google-translate-flags span.ml_IN	{ background-position: -752px 0; }
+div.ipros24-google-translate-flags span.mn_MN	{ background-position: -768px 0; }
+div.ipros24-google-translate-flags span.mr_IN	{ background-position: -784px 0; }
+div.ipros24-google-translate-flags span.ms_MY	{ background-position: -800px 0; }
+div.ipros24-google-translate-flags span.mt_MT	{ background-position: -816px 0; }
+div.ipros24-google-translate-flags span.my_MM	{ background-position: -832px 0; }
+div.ipros24-google-translate-flags span.ne_NP	{ background-position: -848px 0; }
+div.ipros24-google-translate-flags span.nl_NL	{ background-position: -864px 0; }
+div.ipros24-google-translate-flags span.no_NO	{ background-position: -880px 0; }
+div.ipros24-google-translate-flags span.pa_PK	{ background-position: -896px 0; }
+div.ipros24-google-translate-flags span.pl_PL	{ background-position: -912px 0; }
+div.ipros24-google-translate-flags span.pt_PT	{ background-position: -928px 0; }
+div.ipros24-google-translate-flags span.ro_RO	{ background-position: -944px 0; }
+div.ipros24-google-translate-flags span.ru_RU	{ background-position: -960px 0; }
+div.ipros24-google-translate-flags span.si_LK	{ background-position: -976px 0; }
+div.ipros24-google-translate-flags span.sk_SK	{ background-position: -992px 0; }
+div.ipros24-google-translate-flags span.sl_SI	{ background-position: -1008px 0; }
+div.ipros24-google-translate-flags span.so_SO	{ background-position: -1024px 0; }
+div.ipros24-google-translate-flags span.sq_AL	{ background-position: -1040px 0; }
+div.ipros24-google-translate-flags span.sr_RS	{ background-position: -1056px 0; }
+div.ipros24-google-translate-flags span.st_ZA	{ background-position: -1072px 0; }
+div.ipros24-google-translate-flags span.sv_SE	{ background-position: -1088px 0; }
+div.ipros24-google-translate-flags span.ta_IN	{ background-position: -1104px 0; }
+div.ipros24-google-translate-flags span.te_IN	{ background-position: -1120px 0; }
+div.ipros24-google-translate-flags span.tg_TJ	{ background-position: -1136px 0; }
+div.ipros24-google-translate-flags span.th_TH	{ background-position: -1152px 0; }
+div.ipros24-google-translate-flags span.tl_PH	{ background-position: -1168px 0; }
+div.ipros24-google-translate-flags span.tr_TR	{ background-position: -1184px 0; }
+div.ipros24-google-translate-flags span.uk_UA	{ background-position: -1200px 0; }
+div.ipros24-google-translate-flags span.ur_PK	{ background-position: -1216px 0; }
+div.ipros24-google-translate-flags span.uz_UZ	{ background-position: -1232px 0; }
+div.ipros24-google-translate-flags span.vi_VN	{ background-position: -1248px 0; }
+div.ipros24-google-translate-flags span.yi_US	{ background-position: -1264px 0; }
+div.ipros24-google-translate-flags span.yo_NG	{ background-position: -1280px 0; }
+div.ipros24-google-translate-flags span.zh_CN	{ background-position: -1296px 0; }
+div.ipros24-google-translate-flags span.zh_TW	{ background-position: -1312px 0; }
+div.ipros24-google-translate-flags span.zu_ZA	{ background-position: -1328px 0; }
+div.ipros24-google-translate-flags span.pt_BR	{ background-position: -1344px 0; }
+
+.ipros24-google-translate-attribution a,
+.ipros24-google-translate-attribution a:hover	{
+	box-shadow: none !important;
+}
+
+.ipros24-google-translate-attribution a:before	{
+	content: url('../images/attribution/color-regular.png');
+}
+
+.ipros24-translated .ipros24-google-translate-attribution a:before	{
+	content: url('../images/attribution/color-short.png');
+}
+
+.ipros24-google-translate-attribution.ipros24-grayscale a:before	{
+	content: url('../images/attribution/greyscale-regular.png');
+}
+
+.ipros24-translated .ipros24-google-translate-attribution.ipros24-grayscale a:before	{
+	content: url('../images/attribution/greyscale-short.png');
+}
+
+.ipros24-google-translate-attribution.ipros24-white a:before	{
+	content: url('../images/attribution/white-regular.png');
+}
+
+.ipros24-translated .ipros24-google-translate-attribution.ipros24-white a:before	{
+	content: url('../images/attribution/white-short.png');
+}
+
+.ipros24-google-translate-attribution.ipros24-none	{
+	display: none;
+}
+
